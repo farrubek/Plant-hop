@@ -39,14 +39,17 @@ img{
   flex-grow: 1;
 }/* FOOTER STAYL */
 .footer-container {
+  width: 946px;
   display: flex;
-  padding: 60px 131px 71px;
-
+  margin-top: 60px;
+  margin-bottom: 71px;
 }
+
 
 .footer-content__section {
   width: 287px;
   margin-right: 80px;
+  padding: 0px;
 }
 .footer-content__link {
   font-size: 24px;
@@ -62,6 +65,7 @@ img{
   color:#333333 ;
 }
 .footer-content__text {
+  height: 60px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   font-size: 13px;
